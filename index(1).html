@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>One Punch Man</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="p-5">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <img src="img/logo_opm.png" class="nav-img" alt="Logo One Punch Man" loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#herois">Heróis</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h1 class="display-4 text-danger fw-bold">One Punch Man</h1>
+                    <p>Conheça o herói mais forte do universo dos animes, capaz de derrotar qualquer inimigo com um único soco!</p>
+                    <a href="#herois" class="btn btn-danger btn-lg">Conheça os Heróis</a>
+                </div>
+                <img src="img/saitama.png" alt="Saitama, protagonista de One Punch Man" class="img-fluid">
+            </div>
+        </section>
+
+        <section id="herois" class="my-5">
+            <h2 class="text-center">Heróis da Associação</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/genos.png" class="img-fluid rounded-circle mb-3" alt="Genos">
+                    <h3>Genos</h3>
+                    <p>O ciborgue discípulo de Saitama, sempre em busca de poder.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/bang.png" class="img-fluid rounded-circle mb-3" alt="Bang">
+                    <h3>Bang</h3>
+                    <p>Um mestre de artes marciais, conhecido como Silver Fang.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/tatsumaki.png" class="img-fluid rounded-circle mb-3" alt="Tatsumaki">
+                    <h3>Tatsumaki</h3>
+                    <p>A poderosa Tornado do Terror, uma das heroínas classe S.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="my-5">
+            <h2 class="text-center">Fale Conosco</h2>
+            <form class="mx-auto" style="max-width: 600px;">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" id="nome" class="form-control" placeholder="Digite seu nome">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Digite seu email">
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea id="mensagem" class="form-control" rows="4" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger w-100">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center p-3">
+        <p>Siga-nos nas redes sociais:</p>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-twitter"></i>
+        <p>Site fictício inspirado em One Punch Man - Sem fins comerciais.</p>
+    </footer>
+</body>
+
+</html>
